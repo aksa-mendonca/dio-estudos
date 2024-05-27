@@ -6,13 +6,21 @@
     <title>Formulário de Cadastro</title>
 </head>
 <body>
-    
-    <form name="signup" target="_blank" method="post" action="#">
+<!--     
+    <form name="signup" onsubmit="alert('enviei um forms');" method="post" action="#">
         Nome: <input type="text" name="name" /> <br>
         Idade: <input type="number" name="age" /> <br>
         Senha: <input type="password" name="password" /> <br>
         <button type="submit">Enviar</button>
-    </form>
+    </form> -->
 
+        <form>
+           <label>Text: </label> <input type="text"> <br>
+           <label>Number: </label> <input type="number" min="0" step="5" max="100"> <br>
+           <label>Button: </label> <input type="button" value="Enviar"> <br>
+           <label>Range: </label> <input type="range" min="0" step="5" max="100" value="70"> <br>
+           <label>Color: </label> <input type="color"> <br>
+           <label>E-mail: </label> <input type="email"> <br>
+        </form>
 </body>
 </html>
